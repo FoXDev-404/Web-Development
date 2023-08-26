@@ -12,8 +12,6 @@ This repository is my personal space to organize and showcase my web development
 
 - **Projects:** You'll find folders for various projects I've built, each showcasing different skills and concepts I've learned.
 
-- **Tutorials:** I'm documenting my experience with tutorials, online courses, and resources I find helpful. Feel free to check them out!
-
 - **Challenges:** From coding challenges to small projects, I'm tackling them to solidify my skills and test my knowledge.
 
 ## Learning Goals 🎯
