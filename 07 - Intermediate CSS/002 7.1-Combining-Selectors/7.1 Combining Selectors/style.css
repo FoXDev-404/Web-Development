@@ -1,1 +1,37 @@
 /* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+/* 
+.box > .done {
+    color: firebrick;
+} */
+/* 
+div > .done {
+    color: firebrick;
+} */
+
+div > p {
+    color: firebrick;
+}
+
+/* .box li {
+    color: blue;
+} */
+
+/* .list li {
+    color: blue;
+} */
+
+div li {
+    color: blue;
+}
+
+li.done {
+    color: seagreen;
+}
+
+ul li>p.done {
+    font-size: 0.5rem;
+}
