@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positioning Exercise</title>
+    <style>
+      /* Write your code here */
+      .blue-box {
+        position: relative;
+        top: 200px;
+        left: 200px;
+        background-color: blue;
+        height: 300px;
+        width: 500px;
+      }
 
-<head>
-  <title>CSS Positioning Exercise</title>
-  <style>
-    /* Write your code here */
-  </style>
-</head>
+      .red-circle {
+        position: absolute;
+        top: 150px;
+        left: 250px;
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
 
-<body>
-  <div class="blue-box">
-    <div class="red-circle">
+  <body>
+    <div class="blue-box">
+      <div class="red-circle"></div>
     </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
