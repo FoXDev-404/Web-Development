@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flag Project</title>
+    <style>
+      /* Write your CSS Code here */
+      div.flag {
+        position: relative;
+        background-color: #ce1126;
+        height: 600px;
+        width: 900px;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Flag Project</title>
-  <style>
-    /* Write your CSS Code here */
-    
-  </style>
-</head>
+      div.flag > p {
+        position: static;
+        margin-top: 0;
+        left: 50%;
+        color: white;
+        font-size: 80px;
+        text-align: center;
+      }
 
-<!-- 
+      div > div {
+        background-color: #002868;
+        height: 300px;
+        width: 900px;
+        position: absolute;
+        top: 150px;
+      }
+      div > div > div {
+        background-color: white;
+        position: absolute;
+        left: 350px;
+        top: 50px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 80px;
+      }
+      
+      div > div > div > p {
+        color: black;
+        font-size: 80px;
+        text-align: center;
+        margin-top: 0px;
+      }
+    </style>
+  </head>
+
+  <!-- 
   IMPORTANT! Do not change any HTML
 Don't add any classes/ids/elements 
 Use what you know about combining selectors 
@@ -20,15 +60,14 @@ Hint 2: You can use CSS inspection to get the colors from
 https://appbrewery.github.io/flag-of-laos/
 -->
 
-<body>
-  <div class="flag">
-    <p>The Flag</p>
-    <div>
+  <body>
+    <div class="flag">
+      <p>The Flag</p>
       <div>
-        <p>of Laos</p>
+        <div>
+          <p>of Laos</p>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
