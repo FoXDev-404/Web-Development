@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mondrian Project</title>
-  <style>
-    /* 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
     Write your CSS here 
     Gap Colour: #000
     White: #F0F1EC
@@ -19,11 +18,114 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
-  </style>
-</head>
 
-<body>
-  <!-- Write your HTML here -->
-</body>
+      html {
+        background-color: darkolivegreen;
+      }
 
+      .container {
+        display: grid;
+        height: 748px;
+        width: 748px;
+        grid-template-columns: 320px 198px 152px 50px;
+        column-gap: 9px;
+        grid-template-rows: 414px 130px 155px 20px;
+        row-gap: 9px;
+      }
+
+      .red {
+        background-color: #e72f24;
+        height: 414px;
+        width: 320px;
+        border-right: 9px solid #000;
+        border-bottom: 9px solid #000;
+      }
+
+      .white_1 {
+        background-color: #f0f1ec;
+        height: 414px;
+        width: 419px;
+        border-bottom: 9px solid #000;
+      }
+
+      .white_2 {
+        grid-row: 2;
+        background-color: #f0f1ec;
+        width: 320px;
+        height: 295px;
+        border-right: 9px solid #000;
+        border-bottom: 9px solid #000;
+      }
+
+      .white_3 {
+        grid-row: 2;
+        background-color: #f0f1ecec;
+        width: 359px;
+        height: 295px;
+        border-right: 9px solid #000;
+        border-bottom: 9px solid #000;
+      }
+
+      .blue {
+        grid-row: 2;
+        grid-column: 4;
+        background-color: #004592;
+        width: 51px;
+        height: 130px;
+        border-bottom: 10px solid #000;
+      }
+
+      .white_4 {
+        /* grid-row: 3; */
+        /* grid-column: 4; */
+        /* or */
+        grid-area: 3 / 4 / 4 / 5;
+        background-color: #f0f1ec;
+        width: 50px;
+        height: 184px;
+      }
+
+      .white_5 {
+        grid-row: 4;
+        grid-column: 1;
+        background-color: #f0f1ec;
+        width: 320px;
+        height: 20px;
+        border-right: 9px solid #000;
+      }
+
+      .yellow {
+        grid-row: 4;
+        grid-column: 2;
+        background-color: #f9d01e;
+        width: 198px;
+        height: 20px;
+        border-right: 9px solid #000;
+      }
+
+      .black {
+        grid-row: 4;
+        grid-column: 3;
+        background-color: #232629;
+        width: 152px;
+        height: 20px;
+        border-right: 9px solid #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="container">
+      <div class="red"></div>
+      <div class="white_1"></div>
+      <div class="white_2"></div>
+      <div class="white_3"></div>
+      <div class="blue"></div>
+      <div class="white_4"></div>
+      <div class="white_5"></div>
+      <div class="yellow"></div>
+      <div class="black"></div>
+    </div>
+  </body>
 </html>
