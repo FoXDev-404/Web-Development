@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecee81;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+#header {
+    background-color: #8ddfcb;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#cake-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.section-title {
+    color: #82a0d8;
+    margin-top: 20px;
+}
+
+.details {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.map-link {
+    color: #7c75e0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.map-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,251 @@
+/* Reset some default styles */
+body,
+h1,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #053b50;
+    color: #eeeeee;
+    padding: 20px 0;
+}
+
+/*  */
+#hero {
+    background-color: #C8FFE0;
+}
+
+#about {
+    background-color: #D7E5CA;
+}
+
+#resume {
+    background-color: #F9F3CC;
+}
+
+#portfolio {
+    background-color: #D7E5CA;
+}
+
+/* Movie section styles */
+#movies .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#movies h1 {
+    color: #053B50;
+}
+
+#movies h2 {
+    color: #176B87;
+}
+
+.movie {
+    margin: 20px 0;
+    border: 2px solid #176B87;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.movie h3 {
+    color: #176B87;
+}
+
+.movie p {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Add more styles as needed */
+
+    
+
+/*  */
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    background-color: #176b87;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #eeeeee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #64ccc5;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.container h2 {
+    font-size: 2rem;
+    color: #053b50;
+}
+
+.container p {
+    font-size: 1.2rem;
+    color: #176b87;
+    margin-bottom: 20px;
+}
+
+/* Styling for the hero section */
+#hero {
+    background-image: url("path-to-hero-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #eeeeee;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Styling for the resume section */
+#resume h3,
+#portfolio h3 {
+    font-size: 1.8rem;
+    color: #053b50;
+}
+
+#resume p,
+#portfolio p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#resume ul,
+#portfolio ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#resume ul li,
+#portfolio ul li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Styling for portfolio projects */
+.project {
+    background-color: #64ccc5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #053b50;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.project p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #176b87;
+    color: #eeeeee;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #053b50;
+}
+
+/* Styling for the contact section */
+#contact h2 {
+    font-size: 1.8rem;
+    color: #053b50;
+}
+
+#contact p,
+#contact ul {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #176b87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #64ccc5;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #053b50;
+    color: #eeeeee;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
