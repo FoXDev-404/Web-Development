@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body,
 h1,
 p,
@@ -8,7 +7,6 @@ li {
     padding: 0;
 }
 
-/* Basic styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #eeeeee;
@@ -27,24 +25,28 @@ header {
     padding: 20px 0;
 }
 
-/*  */
 #hero {
     background-color: #C8FFE0;
 }
 
 #about {
+    margin: 0;
+    padding: 5px;
     background-color: #D7E5CA;
 }
 
 #resume {
     background-color: #F9F3CC;
+    margin: 0;
+    padding: 5px;
 }
 
 #portfolio {
     background-color: #D7E5CA;
+    margin: 0;
+    padding: 5px;
 }
 
-/* Movie section styles */
 #movies .container {
     max-width: 800px;
     margin: 0 auto;
@@ -75,12 +77,6 @@ header {
     color: #333;
     line-height: 1.5;
 }
-
-/* Add more styles as needed */
-
-    
-
-/*  */
 
 header h1 {
     font-size: 2.5rem;
@@ -131,17 +127,17 @@ section {
     margin-bottom: 20px;
 }
 
-/* Styling for the hero section */
 #hero {
-    background-image: url("path-to-hero-background-image.jpg");
     background-size: cover;
     background-position: center;
     color: #eeeeee;
     text-align: center;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 #hero h2 {
+    margin: 0;
+    padding: 0;
     font-size: 3rem;
 }
 
@@ -150,7 +146,6 @@ section {
     margin-top: 20px;
 }
 
-/* Styling for the resume section */
 #resume h3,
 #portfolio h3 {
     font-size: 1.8rem;
@@ -177,9 +172,8 @@ section {
     margin-bottom: 5px;
 }
 
-/* Styling for portfolio projects */
 .project {
-    background-color: #64ccc5;
+    background-color: #F9F3CC;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -218,7 +212,6 @@ section {
     background-color: #053b50;
 }
 
-/* Styling for the contact section */
 #contact h2 {
     font-size: 1.8rem;
     color: #053b50;
@@ -243,9 +236,10 @@ section {
 
 /* Styling for the footer */
 footer {
-    background-color: #053b50;
-    color: #eeeeee;
+    background-color: #d8d5e0;
+    color: #F9F3CC;
     text-align: center;
     padding: 20px 0;
     font-size: 1.2rem;
+    font-weight: bold;
 }
