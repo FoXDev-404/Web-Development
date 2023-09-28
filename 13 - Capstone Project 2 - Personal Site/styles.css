@@ -26,23 +26,23 @@ header {
 }
 
 #hero {
-    background-color: #C8FFE0;
+    background-color: #c8ffe0;
 }
 
 #about {
     margin: 0;
     padding: 5px;
-    background-color: #D7E5CA;
+    background-color: #d7e5ca;
 }
 
 #resume {
-    background-color: #F9F3CC;
+    background-color: #f9f3cc;
     margin: 0;
     padding: 5px;
 }
 
 #portfolio {
-    background-color: #D7E5CA;
+    background-color: #d7e5ca;
     margin: 0;
     padding: 5px;
 }
@@ -54,23 +54,23 @@ header {
 }
 
 #movies h1 {
-    color: #053B50;
+    color: #053b50;
 }
 
 #movies h2 {
-    color: #176B87;
+    color: #176b87;
 }
 
 .movie {
     margin: 20px 0;
-    border: 2px solid #176B87;
+    border: 2px solid #176b87;
     padding: 20px;
     border-radius: 5px;
     text-align: left;
 }
 
 .movie h3 {
-    color: #176B87;
+    color: #176b87;
 }
 
 .movie p {
@@ -173,7 +173,7 @@ section {
 }
 
 .project {
-    background-color: #F9F3CC;
+    background-color: #f9f3cc;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -234,10 +234,9 @@ section {
     color: #64ccc5;
 }
 
-/* Styling for the footer */
 footer {
     background-color: #d8d5e0;
-    color: #F9F3CC;
+    color: #f9f3cc;
     text-align: center;
     padding: 20px 0;
     font-size: 1.2rem;
