@@ -42,6 +42,7 @@ if (loveScore >= 70) {
 
 // Comparators and Equality/ ( ===, >=, <=, !==, >, < )
 // Combining Comparators ( && AND, || OR, ! NOT )
+/*
 prompt("Enter first name : ");
 prompt("Enter second name : ");
 var loveScore = Math.random();
@@ -64,3 +65,6 @@ if (loveScore > 70) {
       " You go together like oil and water."
   );
 }
+*/
+
+//Introducing the Leap Year Code Challenge.
