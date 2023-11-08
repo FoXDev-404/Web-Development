@@ -22,6 +22,7 @@ alert("The love score is " + loveScore + "%");
 */
 
 // Control Statements Using If-Else Conditionals & Logic.
+/*
 prompt("Enter first name : ");
 prompt("Enter second name : ");
 var loveScore = Math.random();
@@ -37,3 +38,4 @@ if (loveScore >= 70) {
 } else {
   alert("The love score is " + loveScore + "%");
 }
+*/
