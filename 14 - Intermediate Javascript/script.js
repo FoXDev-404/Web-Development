@@ -20,3 +20,20 @@ loveScore = loveScore * 100;
 loveScore = Math.floor(loveScore) + 1;
 alert("The love score is " + loveScore + "%");
 */
+
+// Control Statements Using If-Else Conditionals & Logic.
+prompt("Enter first name : ");
+prompt("Enter second name : ");
+var loveScore = Math.random();
+loveScore = loveScore * 100;
+loveScore = Math.floor(loveScore) + 1;
+if (loveScore >= 70) {
+  alert(
+    "The love score is " +
+      loveScore +
+      "%" +
+      " You are the perfect match for each other.  💕"
+  );
+} else {
+  alert("The love score is " + loveScore + "%");
+}
