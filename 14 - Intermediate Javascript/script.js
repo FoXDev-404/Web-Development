@@ -88,4 +88,15 @@ function isLeap(year) {
 }
 */
 
+// Collections Working with Javascript Arrays
+/*
+let guestList = ["Alice", "Bob", "Charlie", "David", "Eve"];
 
+let guestName = prompt("What is your name?");
+
+if (guestList.includes(guestName)) {
+  alert("Welcome, " + guestName + "!");
+} else {
+  alert("Sorry, maybe next time.");
+}
+*/
