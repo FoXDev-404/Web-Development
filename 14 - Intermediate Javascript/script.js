@@ -123,3 +123,17 @@ function fizzBuzz() {
 
 fizzBuzz();
 */
+
+// Who's Buying Lunch Solution
+/*
+let names = ["Alice", "Bob", "Charlie", "David", "Eve"];
+
+function whosPaying(names) {
+  var numberOfPeople = names.length;
+  var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+  var randomPerson = names[randomPersonPosition];
+
+  console.log(randomPerson + " is going to buy lunch today!");
+}
+whosPaying(names);
+*/
