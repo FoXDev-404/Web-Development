@@ -68,3 +68,24 @@ if (loveScore > 70) {
 */
 
 //Introducing the Leap Year Code Challenge.
+/*
+let leapYear = prompt("Enter year : ");
+if ((leapYear % 4 === 0 && leapYear % 100 !== 0) || leapYear % 400 === 0) {
+  alert("The year " + leapYear + " is a leap year.");
+} else {
+  alert("The year " + leapYear + " is not a leap year.");
+}
+*/
+
+// Leap Year Code Challenge.
+/*
+function isLeap(year) {
+  if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+    return year + " is a leap year";
+  } else {
+    return year + " is not a leap year";
+  }
+}
+*/
+
+
