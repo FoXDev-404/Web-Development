@@ -161,3 +161,28 @@ function fizzBuzz() {
 
 fizzBuzz(); // Function Call..
 */
+
+//Printing the lyrics of the song "99 Bottles of Beer" using while loop.
+let bottles = 99;
+
+while (bottles > 0) {
+  if (bottles === 1) {
+    console.log(bottles + " bottle of beer on the wall,");
+    console.log(bottles + " bottle of beer.");
+  } else {
+    console.log(bottles + " bottles of beer on the wall,");
+    console.log(bottles + " bottles of beer.");
+  }
+
+  console.log("Take one down, pass it around,");
+
+  bottles--;
+
+  if (bottles === 1) {
+    console.log(bottles + " bottle of beer on the wall.\n");
+  } else if (bottles === 0) {
+    console.log("No more bottles of beer on the wall.");
+  } else {
+    console.log(bottles + " bottles of beer on the wall.\n");
+  }
+}
