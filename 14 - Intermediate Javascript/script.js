@@ -139,6 +139,7 @@ whosPaying(names);
 */
 
 // Control Statements While Loops
+/*
 var output = [];
 var count = 1;
 
@@ -159,3 +160,4 @@ function fizzBuzz() {
 }
 
 fizzBuzz(); // Function Call..
+*/
