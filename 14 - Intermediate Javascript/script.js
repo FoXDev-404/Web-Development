@@ -1,3 +1,22 @@
+/**
+ * FILEPATH: /C:/Users/FoxDev-404/Desktop/Web Development/14 - Intermediate Javascript/script.js
+ * 
+ * This file contains code examples for various concepts in intermediate JavaScript such as:
+ * - Simple Prompt and Alert program
+ * - Random Number Generator
+ * - Love Score Calculator
+ * - Control Statements Using If-Else Conditionals & Logic
+ * - Comparators and Equality/ ( ===, >=, <=, !==, >, < )
+ * - Combining Comparators ( && AND, || OR, ! NOT )
+ * - Introducing the Leap Year Code Challenge
+ * - Leap Year Code Challenge
+ * - Collections Working with Javascript Arrays
+ * - Adding Elements and Intermediate Array Techniques
+ * - Who's Buying Lunch Solution
+ * - Control Statements While Loops
+ * - Printing the lyrics of the song "99 Bottles of Beer" using while loop
+ * - Control Statements For Loops
+ */
 // Simple Prompt and Alert program.
 // prompt("Enter Your Name : ");
 // alert("Hya there...");
@@ -163,6 +182,7 @@ fizzBuzz(); // Function Call..
 */
 
 //Printing the lyrics of the song "99 Bottles of Beer" using while loop.
+/*
 let bottles = 99;
 
 while (bottles > 0) {
@@ -186,3 +206,7 @@ while (bottles > 0) {
     console.log(bottles + " bottles of beer on the wall.\n");
   }
 }
+*/
+
+  // Control Statements For Loops
+
