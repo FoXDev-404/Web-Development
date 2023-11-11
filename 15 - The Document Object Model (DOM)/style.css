@@ -1,0 +1,190 @@
+/* write css code for this HTML code */
+h1 {
+  color: red;
+}
+p {
+  color: blue;
+}
+ul {
+  color: green;
+}
+
+/* write more advanced CSS add some gradient background animation */
+body {
+  background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* add more colour */
+h1 {
+  color: #ff0066;
+}
+p {
+  color: #ffcc00;
+}
+ul {
+  color: #00ff00;
+}
+
+/* add some animation */
+h1 {
+  animation: rainbow 5s ease infinite;
+}
+p {
+  animation: rainbow 5s ease infinite;
+}
+ul {
+  animation: rainbow 5s ease infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: #ff0066;
+  }
+  25% {
+    color: #ffcc00;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #00ccff;
+  }
+  100% {
+    color: #ff0066;
+  }
+}
+
+/* add some border */
+h1 {
+  border: 5px solid #ff0066;
+}
+p {
+  border: 5px solid #ffcc00;
+}
+ul {
+  border: 5px solid #00ff00;
+}
+
+/* add some padding */
+h1 {
+  padding: 10px;
+}
+p {
+  padding: 10px;
+}
+ul {
+  padding: 10px;
+}
+
+/* add some margin */
+h1 {
+  margin: 10px;
+}
+p {
+  margin: 10px;
+}
+ul {
+  margin: 10px;
+}
+
+/* add some border radius */
+
+h1 {
+  border-radius: 10px;
+}
+p {
+  border-radius: 10px;
+}
+ul {
+  border-radius: 10px;
+}
+
+/* add some box shadow */
+h1 {
+  box-shadow: 10px 10px 5px #ff0066;
+}
+p {
+  box-shadow: 10px 10px 5px #ffcc00;
+}
+ul {
+  box-shadow: 10px 10px 5px #00ff00;
+}
+
+/* add some text shadow */
+h1 {
+  text-shadow: 2px 2px #ff0066;
+}
+p {
+  text-shadow: 2px 2px #ffcc00;
+}
+ul {
+  text-shadow: 2px 2px #00ff00;
+}
+
+/* add some font size */
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+}
+ul {
+  font-size: 20px;
+}
+
+/* add some font family */
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* REMOVE dot (.) from list */
+ul {
+  list-style-type: none;
+}
+
+/* Add these styles at the end of your existing style.css file */
+
+/* Fireworks Animation */
+.firework-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.firework {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  animation: explode 1s ease-out forwards;
+}
+
+@keyframes explode {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(10); opacity: 0; }
+}
