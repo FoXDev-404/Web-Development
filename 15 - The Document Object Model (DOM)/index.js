@@ -9,4 +9,10 @@ document.querySelectorAll("ul .item")[0].style.color = "red"; // red
 document.querySelectorAll("ul .item")[2].style.color = "blue"; // blue
 
 // change the background color of the button to yellow
-document.querySelector("button").style.backgroundColor = "blue"; // blue
+document.querySelector("button").style.backgroundColor = "yellow"; // yellow
+
+// change the text color of the button to black
+document.querySelector("button").style.color = "black"; // black
+
+// change the font weight of the button to bold
+document.querySelector("button").style.fontWeight = "bold"; // bold
