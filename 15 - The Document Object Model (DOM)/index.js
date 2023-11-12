@@ -7,3 +7,6 @@ document.querySelectorAll("ul .item"); // NodeList(3) [li.item, li.item, li.ite
 document.querySelectorAll("ul .item")[0].style.color = "red"; // red
 
 document.querySelectorAll("ul .item")[2].style.color = "blue"; // blue
+
+// change the background color of the button to yellow
+document.querySelector("button").style.backgroundColor = "blue"; // blue
