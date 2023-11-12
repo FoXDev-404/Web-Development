@@ -1,23 +1,29 @@
-document.getElementsByTagName("li"); // HTMLCollection(3) [li, li, li]
+// Get all <li> elements in the document and store them in an HTMLCollection
+const listItems = document.getElementsByTagName("li"); // HTMLCollection(3) [li, li, li]
 
-document.getElementsByTagName("li")[1].style.color = "green"; // green
+// Change the text color of the second <li> element to green
+listItems[1].style.color = "green"; // Result: text color changed to green
 
-document.querySelectorAll("ul .item"); // NodeList(3) [li.item, li.item, li.item]
+// Select all elements with the class "item" within <ul> elements and store them in a NodeList
+const itemList = document.querySelectorAll("ul .item"); // NodeList(3) [li.item, li.item, li.item]
 
-document.querySelectorAll("ul .item")[0].style.color = "red"; // red
+// Change the text color of the first <li> element with the class "item" to red
+itemList[0].style.color = "red"; // Result: text color changed to red
 
-document.querySelectorAll("ul .item")[2].style.color = "blue"; // blue
+// Change the text color of the third <li> element with the class "item" to blue
+itemList[2].style.color = "blue"; // Result: text color changed to blue
 
-// change the background color of the button to yellow
-document.querySelector("button").style.backgroundColor = "yellow"; // yellow
+// Change the background color of the first <button> element to yellow
+document.querySelector("button").style.backgroundColor = "yellow"; // Result: background color changed to yellow
 
-// change the text color of the button to black
-document.querySelector("button").style.color = "black"; // black
+// Change the text color of the first <button> element to black
+document.querySelector("button").style.color = "black"; // Result: text color changed to black
 
-// change the font weight of the button to bold
-document.querySelector("button").style.fontWeight = "bold"; // bold
+// Change the font weight of the first <button> element to bold
+document.querySelector("button").style.fontWeight = "bold"; // Result: font weight changed to bold
 
-// change the h1 font size to 48px when we click on the button, use button like toggle
+// Add a click event listener to the first <button> element to toggle the "huge" class on the <h1> element
 document.querySelector("button").addEventListener("click", function () {
   document.querySelector("h1").classList.toggle("huge");
+  // Result: When clicked, toggles the "huge" class on the <h1> element, changing its font size to 48px
 });
