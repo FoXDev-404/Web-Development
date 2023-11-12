@@ -161,30 +161,3 @@ ul {
 ul {
   list-style-type: none;
 }
-
-/* Add these styles at the end of your existing style.css file */
-
-/* Fireworks Animation */
-.firework-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 9999;
-}
-
-.firework {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  background-color: #ff0000;
-  border-radius: 50%;
-  animation: explode 1s ease-out forwards;
-}
-
-@keyframes explode {
-  0% { transform: scale(1); opacity: 1; }
-  100% { transform: scale(10); opacity: 0; }
-}
