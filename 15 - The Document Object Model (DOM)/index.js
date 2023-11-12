@@ -16,3 +16,8 @@ document.querySelector("button").style.color = "black"; // black
 
 // change the font weight of the button to bold
 document.querySelector("button").style.fontWeight = "bold"; // bold
+
+// change the h1 font size to 48px when we click on the button, use button like toggle
+document.querySelector("button").addEventListener("click", function () {
+  document.querySelector("h1").classList.toggle("huge");
+});

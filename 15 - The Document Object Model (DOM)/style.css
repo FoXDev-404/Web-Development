@@ -13,7 +13,7 @@ ul {
 
 /* write more advanced CSS add some gradient background animation */
 body {
-  background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -22,11 +22,9 @@ body {
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
   }
@@ -228,4 +226,14 @@ input[type="checkbox"] {
 /* add effect when we hover btn Click Me */
 .btn:hover {
   background-color: #3e8e41;
+}
+
+.invisible {
+  display: none;
+}
+
+.huge {
+  font-size: 100px;
+  /* add some animation stuff too */
+  animation: rainbow 0.5s ease infinite;
 }
