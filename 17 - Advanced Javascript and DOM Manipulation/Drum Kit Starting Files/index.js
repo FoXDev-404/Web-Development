@@ -1,3 +1,4 @@
+// Source:
 document.querySelectorAll(".drum").forEach((element) => {
   element.addEventListener("click", function () {
     makeSound(this.innerHTML);
@@ -5,11 +6,13 @@ document.querySelectorAll(".drum").forEach((element) => {
   });
 });
 
+// Detecting Button Press
 document.addEventListener("keydown", function (event) {
   makeSound(event.key);
   buttonAnimation(event.key);
 });
 
+// Detecting Keyboard Press
 function makeSound(key) {
   switch (key) {
     case "w":
@@ -53,6 +56,7 @@ function makeSound(key) {
   }
 }
 
+// Button Animation
 function buttonAnimation(currentKey) {
   var activeButton = document.querySelector("." + currentKey);
   activeButton.classList.add("pressed");
