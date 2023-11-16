@@ -116,7 +116,14 @@ $("button").on("click", function () {
 });
 */
 
+/*
+// On button click, animate all h1 elements to half opacity
 $("button").on("click", function () {
-  
-  $("h1").animate({color: purple;});
+  $("h1").animate({ opacity: 0.499 });
 });
+
+// On button click, slide up, then slide down, and finally animate all h1 elements to half opacity
+$("button").on("click", function () {
+  $("h1").slideUp().slideDown().animate({ opacity: 0.499 });
+});
+*/
