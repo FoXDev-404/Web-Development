@@ -66,3 +66,57 @@ $("h1").on("mouseover", function () {
   $("h1").css("color", "purple");
 });
 */
+
+/*
+// Animation using jQuery
+
+// On button click, hide all h1 elements
+$("button").on("click", function () {
+  $("h1").hide();
+});
+
+// On button click, show all h1 elements
+$("button").on("click", function () {
+  $("h1").show();
+});
+
+// On button click, toggle visibility of all h1 elements
+$("button").on("click", function () {
+  $("h1").toggle();
+});
+
+// On button click, fade out all h1 elements
+$("button").on("click", function () {
+  $("h1").fadeOut();
+});
+
+// On button click, fade in all h1 elements
+$("button").on("click", function () {
+  $("h1").fadeIn();
+});
+
+// On button click, toggle fade on all h1 elements
+$("button").on("click", function () {
+  $("h1").fadeToggle();
+});
+
+// On button click, slide up all h1 elements
+$("button").on("click", function () {
+  $("h1").slideUp();
+});
+
+// On button click, slide down all h1 elements
+$("button").on("click", function () {
+  $("h1").slideDown();
+});
+
+// On button click, toggle slide on all h1 elements
+$("button").on("click", function () {
+  $("h1").slideToggle();
+});
+*/
+
+$("button").on("click", function () {
+  
+  $("h1").animate({color: purple;});
+});
