@@ -59,5 +59,10 @@ $(document).keypress(function (event) {
   $("h1").text(event.key);
   console.log(event.key);
 });
-*/
 
+// Add an event listener for the 'mouseover' event on all h1 elements
+$("h1").on("mouseover", function () {
+  // When a mouseover event occurs, change the color of all h1 elements to purple
+  $("h1").css("color", "purple");
+});
+*/
