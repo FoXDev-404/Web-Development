@@ -1,7 +1,7 @@
 {
   "name": "qr-code-generator",
   "version": "1.0.0",
-  "description": "I am working on QR Code Generator Project.",
+  "description": "A simple QR Code Generator made with NodeJS",
   "main": "index.js",
   "type": "module",
   "scripts": {
