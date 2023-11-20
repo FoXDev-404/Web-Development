@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #555;
+      }
+      h1 {
+        text-align: center;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Add an HTML form, this form will make a post request to our server at the route /bmiCalculator. The form will have 2 inputs, weight and height with placeholder text that tell the user what they should type into which text box. -->
+    <h1>BMI Calculator</h1>
+    <form action="/bmiCalculator" method="post">
+      <input type="text" name="weight" placeholder="Weight in kg" />
+      <input type="text" name="height" placeholder="Height in cm" />
+      <button type="submit" name="submit">Calculate BMI</button>
+    </form>
+  </body>
+</html>
