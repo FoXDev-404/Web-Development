@@ -1,15 +1,16 @@
 {
-  "name": "22---todo-list-project-v1",
+  "name": "07---todolist-v1",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "@FoXDev-404",
+  "author": "Rajpal Nishad",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
     "express": "^4.18.2"
   }
 }
