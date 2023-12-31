@@ -40,5 +40,3 @@ I'm excited to connect with fellow learners, mentors, and professionals in the w
 A big shoutout to the amazing online communities, tutorials, and resources that have been guiding me on this exciting journey!
 
 Let's learn and code together! Feel free to explore my projects, follow my progress, and reach out if you'd like to connect.
-
-Happy coding! 🌟
