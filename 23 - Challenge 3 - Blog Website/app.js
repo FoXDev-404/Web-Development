@@ -25,6 +25,12 @@ app.get('/contact', (req, res) => {
   res.render('contact', { contactString: contactContent });
 });
 
+app.get('/compose', (req, res) => {
+  res.render('compose');
+});
+
+
+
 
 
 
