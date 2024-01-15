@@ -1,7 +1,9 @@
 <%- include("./partials/header") -%>
 
     <h1>Compose</h1>
-    <input type="text" name="composeString" placeholder="Compose Journal" />
-    <button type="submit">Submit</button>
+    <form method='post' action='/compose'>
+        <input name="composeString" value="" />
+        <button type='submit'>Compose</button>
+    </form>
 
     <%- include("./partials/footer") -%>
