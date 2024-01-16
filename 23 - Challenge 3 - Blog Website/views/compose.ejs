@@ -2,8 +2,15 @@
 
     <h1>Compose</h1>
     <form method='post' action='/compose'>
-        <input name="composeString" value="" />
-        <button type='submit'>Compose</button>
+        <div class="form-group">
+            <label for='title'>Title</label>
+            <input class="form-control" name="composeTitle" value="" />
+        </div>
+        <div class="form-group">
+            <label for='post'>Post</label>
+            <textarea class="form-control" name="composeString" rows="8" cols="80"></textarea>
+        </div>
+        <button type='submit' class="btn btn-primary">Compose</button>
     </form>
 
     <%- include("./partials/footer") -%>
