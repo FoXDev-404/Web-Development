@@ -109,8 +109,14 @@
     function applyUserCss() {
       const userCss = document.getElementById('user-css').value;
       const style = document.createElement('style');
-      style.innerHTML = userCss;
+      // Encode user input to prevent XSS
+      style.innerHTML = encodeHTML(userCss);
       document.head.appendChild(style);
+    }
+
+    // Function to encode HTML entities
+    function encodeHTML(input) {
+      return input.replace(/</g, "&lt;").replace(/>/g, "&gt;");
     }
   </script>
 </body>
