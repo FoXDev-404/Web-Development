@@ -2,9 +2,11 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 
-const homeStartingContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.";
-const aboutContent = "Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Non diam phasellus vestibulum lorem sed. Platea dictumst quisque sagittis purus sit. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Mauris in aliquam sem fringilla. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Amet massa vitae tortor condimentum lacinia quis vel eros. Enim ut tellus elementum sagittis vitae. Mauris ultrices eros in cursus turpis massa tincidunt dui.";
-const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rhoncus urna neque viverra justo nec ultrices. Arcu dui vivamus arcu felis bibendum. Consectetur adipiscing elit duis tristique. Risus viverra adipiscing at in tellus integer feugiat. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Consequat interdum varius sit amet mattis. Iaculis nunc sed augue lacus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Pulvinar elementum integer enim neque. Ultrices gravida dictum fusce ut placerat orci nulla. Mauris in aliquam sem fringilla ut morbi tincidunt. Tortor posuere ac ut consequat semper viverra nam libero.";
+
+const homeStartingContent = "Welcome to my blog! This is my first blog website built with Node.js and Express.js. I've made it dynamic using EJS, responsive with Bootstrap, and efficient with Lodash. MongoDB is storing my data through Mongoose, and the website is deployed on Heroku. I use Git and GitHub for version control, VS Code for coding, npm for package management, and nodemon for server monitoring. MongoDB Atlas and Compass help manage my database, while Git Bash and GitHub are used for code versioning and deployment. Let's explore the world of web development together!";
+
+const aboutContent = "About Me: I'm a web developer with two years of experience, learning from various platforms like Udemy, YouTube, Google, Stack Overflow, W3Schools, FreeCodeCamp, GitHub, Medium, GeeksforGeeks, Hackerrank, and more. I've also participated in coding challenges on CodeChef, Codeforces, LeetCode, and learning through platforms like Udacity, Coursera, Pluralsight, SoloLearn, and Codecademy. Web development is not just my job; it's my passion and continuous learning journey. Join me in this exciting adventure of coding and creativity.";
+const contactContent = "Contact Me: Feel free to reach out! You can contact me via email, phone, or find me on various social media platforms such as GitHub, LinkedIn, Twitter, Instagram, Facebook, Snapchat, WhatsApp, Telegram, Skype, Discord, Slack, Zoom, Google Meet, Microsoft Teams, YouTube, Pinterest, Medium, Stack Overflow, Quora, Reddit, GitLab, Bitbucket, CodePen, CodeSandbox, Repl.it, and more. I'm always open to connecting and collaborating.";
 
 const app = express();
 
@@ -12,6 +14,9 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
+
+let posts = [];
+
 
 app.get('/', function (req, res) {
   res.render('home', { StartingContent: homeStartingContent });
@@ -31,13 +36,15 @@ app.get('/compose', (req, res) => {
 
 
 app.post('/compose', function (req, res) {
-  // var tmp = req.body.postTitle  
-  console.log(req.body.postTitle);
+  const post = {
+    title: req.body.postTitle,
+    content: req.body.postBody
+  };
+  posts.push(post);
+  res.redirect('/');
+
+  console.log(posts);
 });
-
-
-
-
 
 
 
