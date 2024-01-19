@@ -31,8 +31,8 @@ app.get('/compose', (req, res) => {
 
 
 app.post('/compose', function (req, res) {
-  // var tmp = req.body.composeTitle  
-  console.log(req.body.composeTitle);
+  // var tmp = req.body.postTitle  
+  console.log(req.body.postTitle);
 });
 
 
