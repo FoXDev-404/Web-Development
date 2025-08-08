@@ -58,3 +58,27 @@ footer {
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
+
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.roll-button {
+  background-color: #4ecca3;
+  color: #232931;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.roll-button:hover {
+  background-color: #232931;
+  color: #4ecca3;
+  transform: scale(1.1);
+}
